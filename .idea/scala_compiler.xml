@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="cass_to_hdfs_parquet_7310,cass_to_hdfs_parquet" />
+  </component>
+</project>
