@@ -2,10 +2,14 @@
 Scala application for loading data from Cassandra into HDFS parquet files.
 
 build with SBT
+
 Windows: 
  cd C:\cass_to_hdfs_parquet
+ 
  sbt assembly
+ 
  cd C:\cass_to_hdfs_parquet\target\scala-2.11
+ 
  it is casstohdfs_v1.jar
 
 Copy it on cluster and run with:
