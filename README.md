@@ -26,11 +26,11 @@ monitoring on HDFS:
 
 [hadoop@hdpnn ~]$ hadoop fs -rm -r /user/tickers/ticks.parquet
 
-[hadoop@hdpnn ~]$ hadoop fs -ls /user/tickers/ticks.parquetFound 10 items
-drwxr-xr-x   - root root          0 2019-01-16 11:10 /user/tickers/ticks.parquet/ticker_id=1
-drwxr-xr-x   - root root          0 2019-01-16 11:15 /user/tickers/ticks.parquet/ticker_id=2
-drwxr-xr-x   - root root          0 2019-01-16 11:20 /user/tickers/ticks.parquet/ticker_id=3
-drwxr-xr-x   - root root          0 2019-01-16 11:23 /user/tickers/ticks.parquet/ticker_id=4
+[hadoop@hdpnn ~]$ hadoop fs -ls /user/tickers/ticks.parquetFound 10 items</br>
+drwxr-xr-x   - root root          0 2019-01-16 11:10 /user/tickers/ticks.parquet/ticker_id=1</br>
+drwxr-xr-x   - root root          0 2019-01-16 11:15 /user/tickers/ticks.parquet/ticker_id=2</br>
+drwxr-xr-x   - root root          0 2019-01-16 11:20 /user/tickers/ticks.parquet/ticker_id=3</br>
+drwxr-xr-x   - root root          0 2019-01-16 11:23 /user/tickers/ticks.parquet/ticker_id=4</br>
 ...
 ...
 
