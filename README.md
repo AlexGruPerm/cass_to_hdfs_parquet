@@ -36,9 +36,9 @@ drwxr-xr-x   - root root          0 2019-01-16 11:23 /user/tickers/ticks.parquet
 
 Query with HIVE
 drop table ticker;
-
+</br>
 create external table ticker(
- db_tsunx  BIGINT,
+db_tsunx  BIGINT,
  ask       double,
  bid       double
 ) 
@@ -46,8 +46,9 @@ PARTITIONED BY (ticker_id INT,ddate DATE)
 STORED AS PARQUET
 LOCATION 'hdfs://hdpnn:9000/user/tickers/ticks.parquet/';
 
+</br>
 MSCK REPAIR TABLE ticker;
-
+</br>
 select * from ticker;
 
 Article here: 
